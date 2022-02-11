@@ -1,0 +1,78 @@
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  position: relative;
+  width: 100%;
+}
+thead,tfoot {
+  background-color: blue;
+  color: white;
+}
+td.title {
+  font-weight: bold;
+  background-color: darkgrey;
+}
+td {
+  border: 1px solid black;
+}
+td.odd{
+  background-color: lightgrey;
+}
+td.even{
+  background-color: darkgrey;
+}
+button.fakemoney{
+   margin-top: 10px;
+  border-radius: 5px;
+  background-color: seagreen;
+  border: none;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+div.lgbox{
+  height: 300px;
+  background-color: lightgrey;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+div.wrapper{
+  display: flex;
+  justify-content: center;
+}
+div.redsun{
+  background-color: salmon;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 50px;
+}
+p.story{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+span.textbox{
+  height: auto;
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+button.like{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px;
+  position: relative;
+  font-family: helvetica;
+}
